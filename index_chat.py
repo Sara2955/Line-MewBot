@@ -1,3 +1,4 @@
+'''
 from flask import Flask, request, abort
 import os
 import openai
@@ -79,3 +80,5 @@ def handle_message(event):
 
 if __name__ == "__main__":
     app.run()
+'''
+print("123456")
