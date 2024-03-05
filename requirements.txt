@@ -1,5 +1,4 @@
 python-dotenv
-Flask==2.3.3
+Flask
 line-bot-sdk
 openai
-Werkzeug==2.2.2
