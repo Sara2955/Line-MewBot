@@ -10,10 +10,6 @@ import re
 import time
 #============呼叫檔案內容============
 from linebot.models import *
-from eventlist import *
-from flex_message import *
-from APILINK import *
-from OpenAI_0105 import *
 #====================================
 import re
 import time
@@ -47,7 +43,6 @@ def callback():
 def handle_text_message(event):
     msg = event.message.text
     user_id = event.source.user_id
-    pattern = re.compile(r'^/', re.IGNORECASE)
     
     #LCIA
     if msg == "會員資料":
